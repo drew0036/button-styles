@@ -13,7 +13,7 @@ div {
   text-align: center;
 }
 
-div a {
+.btn {
   display: inline-block;
   vertical-align: middle;
   border-width: 3px;
@@ -21,18 +21,7 @@ div a {
   padding: .4em .75em .3em;
   text-decoration: none;
   color: #fff;
-}
-
-.btn {
-  font-size: 1.125rem;
-}
-
-.btn-small {
-  font-size: .875rem;
-}
-
-.btn-big {
-  font-size: 1.5rem;
+  text-align: center;
 }
 
 .btn-primary {
@@ -45,10 +34,37 @@ div a {
 
 .btn-ghost {
   border: 3px solid #333;
-  border-radius: 8px;
   color: #333;
 }
 
 .btn-warning {
   background-color: #f33;
+}
+
+.normal {
+  font-size: 1.125rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.btn-subtle:hover {
+
+}
+
+.btn-ghost:hover {
+
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
