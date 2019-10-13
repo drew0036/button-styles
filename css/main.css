@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -10,4 +11,44 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+}
+
+div a {
+  display: inline-block;
+  vertical-align: middle;
+  border-width: 3px;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  font-size: 1.125rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #333;
+}
+
+.btn-subtle {
+  background-color: #666;
+}
+
+.btn-ghost {
+  border: 3px solid #333;
+  border-radius: 8px;
+  color: #333;
+}
+
+.btn-warning {
+  background-color: #f33;
 }
